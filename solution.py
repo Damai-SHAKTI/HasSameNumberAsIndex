@@ -1,9 +1,9 @@
 # Solution in python
-def addUpTo(array):
+def HasSameNumberAsIndex(array):
     for i in range(len(array)):
         if i == array[i]:
             return array[i];
     return False
 
 
-print(addUpTo([7, 2, 5, 3, 2]))
+print(HasSameNumberAsIndex([7, 2, 5, 6, 4]))
